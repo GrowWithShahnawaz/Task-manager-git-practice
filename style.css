@@ -7,3 +7,12 @@ h1{
 p{
     font-size: 18px;
 }
+
+button{
+    background-color: rgb(93, 93, 220);
+    color: white;
+    padding: 10px 40px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+}
