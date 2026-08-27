@@ -2,10 +2,16 @@ console.log("Welcome ot Task Manager");
 
 console.log("Git Testing");
 
-console.log("New future added in app.js");
+let btn = document.querySelector("button");
+
+btn.addEventListener("click", ()=>{
+    let task = prompt("Enter your Task :");
+    addTask(task);
+
+
+})
 
 function addTask(task){
-    console.log("Task Added :" + task);
+    console.log("Task was Added :" + task);
 }
 
-addTask("Go for walk");
